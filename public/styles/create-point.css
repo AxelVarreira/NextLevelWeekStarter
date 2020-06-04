@@ -1,0 +1,164 @@
+#page-create-point{
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+#page-create-point header{
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between; /*Cria um espaço entre os itens dentro do header*/
+    align-items: center;
+}
+
+#page-create-point header a{
+    color: var(--title-color);
+    font-weight: bold; /*Peso da fonte*/
+
+    display: flex;
+    align-items: center; /*Alinha os itens*/
+}
+
+#page-create-point header a span{
+    display: flex;
+    margin-right: 16px;
+    background-image: url('../assets/arrow-left.svg'); /*Para ficar verde, é necessario mexer no arrow-left.svg (current-color)*/
+    /*A imagem precisa dos atributos abaixo para aparecer na pagina*/
+    width: 20px;
+    height: 24px;
+}
+
+form{
+    background-color: white;
+    padding: 64px;/*preenchimento interno*/
+    border-radius: 8px;
+    margin-top: 80px;
+    max-width: 730px;/*Largura maxima*/
+}
+
+
+form h1{
+    font-size:36px;
+}
+
+
+form fieldset{
+    margin-top: 64px;
+    border: 0px;
+}
+
+form legend{
+    margin-bottom: 40px;
+}
+
+form legend h2{
+    font-size: 24px;
+}
+
+form .field{
+    flex: 1; /*Preenche toda a linha/Estica até o final da linha*/
+    display: flex; /*Coloca um elemento ao lado do outro*/
+    flex-direction: column; /*Coloca os elementos em formato de coluna*/
+    margin-bottom: 24px;
+}
+
+
+form .field-group{
+    display: flex;
+}
+
+form input,
+form select{
+    background-color: #f0f0f5;
+    border: 0px;
+    padding: 16px 24px;
+    font-size: 16px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /*Coloca shadows nos inputs/ select*/
+    outline:none; /*tira a linha que contorna os inputs*/
+    border-radius: 8px;
+}
+
+form select{
+    /* Tira a propriedade da "seta" do select nos navegadores*/
+    -webkit-appearance: none; /*Aplica no chrome*/
+    -moz-appearance: none; /*Aplica no mozilla*/
+    appearance: none;
+}
+
+form label{
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+form .field-group .field /*Os dois primeiros referenciam ao campo da esquerda*/+ .field/*Campo da direita*/{ 
+    /*Ele vai aplicar os atributos abaixo somento ao field seguido de um field*/
+    margin-left: 24px; 
+}
+
+form button{
+    width: 260px;
+    height: 56px;
+    border-radius: 8px;
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border: 0px;
+    margin-top:40px;
+
+    transition: background-color 400ms; /*Aplica só na cor*/
+    /* transition: 400ms; Aplica o transition em todos atributos de Button*/
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+}
+
+form button:hover{/*Quando passar o mouse em cima*/
+    background-color: #2fb86e;
+    cursor: pointer;
+} 
+
+.items-grid {
+    display: grid; /*GRID: dá proporções multi-dimensionais, pode-se criar linhas e colunas */
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+}
+.items-grid li{
+    background-color: #f5f5f5;
+    list-style: none; /*Tira o style padrão da tag list (li)*/
+
+
+    border: 2px solid #f5f5f5;
+    border-radius: 8px;
+
+    height: 180px;
+    padding: 32px 24px 16px;
+
+
+    display: flex; /*Alinha os itens em linha, um ao lado do outro. Esquerda pra direita*/
+    flex-direction: column; /*Muda a direção da linha e coloca em coluna*/
+    justify-content: space-between; /*Vai colocar um espaço entre os itens de cima pra baixo. Nesse caso, pois está em column*/
+    align-items: center;
+
+    text-align: center;
+    cursor: pointer; /*Coloca a mãozinha de "escolha"*/
+}
+
+.items-grid li span{
+    margin-top: 12px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    color: var(--title-color);
+}
+
+.items-grid li.selected{
+    /*  quando se tem uma tag seguida de um ponto, quer dizer que o CSS vai procurar dentro da tag (items-grid) a tag que tenha a classe selected*/
+
+    background: var(--selected-color);
+    border: 2px solid #34cb79;
+}
+
+.items-grid li img,
+.items-grid li span{
+    pointer-events: none; 
+    /*Tira as propriedades de click das imagens e span do li*/
+}
