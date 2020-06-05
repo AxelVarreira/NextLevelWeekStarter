@@ -36,4 +36,5 @@ server.get("/search", (req, res) =>{
 
 
 //ligar o servidor
-server.listen(3000) /*Para ligar o servidor, executar o comando 'node src/server.js*/
+server.listen(3000) 
+/*Para ligar o servidor, executar o comando 'node src/server.js* ou npm start*/

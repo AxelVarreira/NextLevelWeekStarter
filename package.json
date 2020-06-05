@@ -1,15 +1,11 @@
 {
-  "name": "NextLevelWeekStarter",
+  "name": "nextlevelweekstarter",
   "scripts": {
     "start": "nodemon src/server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AxelVarreira/NextLevelWeekStarter.git"
-  },
-  "homepage": "https://github.com/AxelVarreira/NextLevelWeekStarter#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "init": "^0.1.2",
     "nunjucks": "^3.2.1"
   },
   "devDependencies": {
