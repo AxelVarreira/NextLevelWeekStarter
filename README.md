@@ -18,6 +18,6 @@
 [![Screenshot-from-2020-06-06-15-54-17.png](https://i.postimg.cc/wTLXG8Jk/Screenshot-from-2020-06-06-15-54-17.png)](https://postimg.cc/3dr0kqty)
 
 <h3> Com isso se encerra a semana Next Level Week da RocketSeat</h3> 
-<p>Deu pra aprender bastante coisa, mas, agora o caminho será longo e os codigos estarão ai para serem estudados e desossados. Valeu Mykao e rocketSeat, consegui ver muita coisa que eu nem fazia ideia de como fazer e como funcionava.</p>
+<p>Deu pra aprender bastante coisa, mas, agora o caminho será longo e os codigos estarão ai para serem estudados e desossados. Valeu Mykao e rocketSeat, consegui ver muita coisa que eu nem fazia ideia de como fazer e como funcionava. Além de me motivar a estudar algumas ferramentas que eu nunca usei, ao decorrer da semana, como o proprio github!</p>
 
 <h6>Como não tenho muita experiencia em github, pode haver alguns erros de formatação no readme.md e até no rep.</h6>
