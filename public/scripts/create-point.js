@@ -83,6 +83,7 @@ function getCities(event) {
 
 
         const itemId= itemLi.dataset.id //Pega os numeros das imagens
+        console.log('ITEM ID: ', itemId)
 
         //Verificar se existem itens selecionados, se sim, pegar os itens selecionados
         const alreadySelected = selectedItems.findIndex(item => {
@@ -108,6 +109,8 @@ function getCities(event) {
             selectedItems.push(itemId)
         }
         //console.log(selectedItems)
+
+        console.log('selecetedItems: ', selectedItems)
 
         //atualizar o campo escondido do HTML com os dados selecionados
         collectedItems.value = selectedItems
