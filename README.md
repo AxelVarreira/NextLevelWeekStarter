@@ -15,4 +15,9 @@
 
 [![Screenshot-from-2020-06-04-22-55-24.png](https://i.postimg.cc/QtpvCN6t/Screenshot-from-2020-06-04-22-55-24.png)](https://postimg.cc/cgLF5WGy)
 
+[![Screenshot-from-2020-06-06-15-54-17.png](https://i.postimg.cc/wTLXG8Jk/Screenshot-from-2020-06-06-15-54-17.png)](https://postimg.cc/3dr0kqty)
+
+<h3> Com isso se encerra a semana Next Level Week da RocketSeat</h3> 
+<p>Deu pra aprender bastante coisa, mas, agora o caminho será longo e os codigos estarão ai para serem estudados e desossados. Valeu Mykao e rocketSeat, consegui ver muita coisa que eu nem fazia ideia de como fazer e como funcionava.</p>
+
 <h6>Como não tenho muita experiencia em github, pode haver alguns erros de formatação no readme.md e até no rep.</h6>
