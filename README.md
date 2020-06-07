@@ -3,6 +3,12 @@
 <h3>A semana Next Level Week, teve seu inicio.</h3>
 
 <p>O conteudo dessa semana de aulas, é separada em duas dificuldades e esse repositorio diz respeito ao Starter, o mais basico.<p>
+ 
+ **Tecnologias utilizadas:**
+<br>*HTML
+<br>CSS
+<br>JAVA SCRIPT
+<br>SLQLITE3*
 
 [RocketSeat](https://rocketseat.com.br/)
 
